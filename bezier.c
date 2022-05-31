@@ -2,7 +2,6 @@
 #include <math.h>
 #include <stdio.h>
 #define size(x)  (sizeof(x) / sizeof((x)[0]))
-#define ANG_DIV 100
 
 // Largura e altura da janela
 GLfloat windowWidth;
@@ -23,7 +22,7 @@ const Point make_point(double x, double y)
 
 // pontos
 Point points[4];
-const int STEP = 1000;
+const int STEP = 100;
 
 void make_all_points()
 {
