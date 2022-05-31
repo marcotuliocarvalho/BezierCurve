@@ -32,12 +32,6 @@ void make_all_points()
     points[3] = make_point(225,225);
 }
 
-// size_t size(Point p[])
-// {
-//     printf("%i %i\n",sizeof(p),sizeof(p[0]));
-//     return sizeof(p)/sizeof(p[0]);
-// }
-
 void draw_lines()
 {
     glBegin(GL_LINE_STRIP);
